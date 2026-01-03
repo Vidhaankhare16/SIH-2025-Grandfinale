@@ -2,10 +2,6 @@
 
 🌾 **Live Demo**: [https://sih-8e6n53zfa-vidhaan-khares-projects.vercel.app/](https://sih-8e6n53zfa-vidhaan-khares-projects.vercel.app/)
 
-<div align="center">
-<img width="1200" height="475" alt="KisanSetu Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 ## 🚀 Overview
 
 KisanSetu is a comprehensive digital platform designed to revolutionize the agricultural supply chain in Odisha, India. Built for the Smart India Hackathon 2025, it connects farmers, FPOs (Farmer Producer Organizations), processors, retailers, and government agencies through an integrated ecosystem that promotes oilseed cultivation and efficient market operations.
@@ -268,24 +264,11 @@ This project was developed for SIH 2025 with the following problem statement:
 **"Development of a comprehensive digital platform for promoting oilseed cultivation and establishing an efficient supply chain ecosystem in Odisha"**
 
 ### Team Lumora
-- **Problem Statement ID**: [Your PS ID]
+- **Problem Statement ID**: [25270]
 - **Category**: Software
 - **Theme**: Agriculture & Rural Development
 
-## 📞 Support
 
-For support and queries:
-- **Email**: [your-email@example.com]
-- **GitHub Issues**: [Create an issue](https://github.com/Vidhaankhare16/SIH-2025-Grandfinale/issues)
-- **Documentation**: Check the `/docs` folder for detailed guides
-
-## 🙏 Acknowledgments
-
-- **Smart India Hackathon 2025** for the opportunity
-- **Government of Odisha** for agricultural data and insights
-- **Supabase** for real-time database infrastructure
-- **Google Gemini AI** for intelligent recommendations
-- **Open source community** for various tools and libraries
 
 ---
 
