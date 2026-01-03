@@ -1,0 +1,8 @@
+{
+  "name": "OilSeed Odisha (KisanSetu)",
+  "description": "An AI-enabled value chain platform for farmers and FPOs to boost oilseed production, featuring voice-assisted advisories and logistics optimization.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

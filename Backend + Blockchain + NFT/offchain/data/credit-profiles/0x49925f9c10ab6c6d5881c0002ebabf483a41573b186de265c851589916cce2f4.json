@@ -1,0 +1,78 @@
+{
+  "farmerCreditProfile": {
+    "farmerDID": "0x49925f9c10ab6c6d5881c0002ebabf483a41573b186de265c851589916cce2f4",
+    "stateCode": 33,
+    "districtCode": 3304,
+    "cropClusterCode": 4,
+    "avgYieldKgPerAcre": 850,
+    "AvgSeasonYieldIndex": 3,
+    "totalDisbursed": 18500000,
+    "totalRepaid": 18500000,
+    "onTimeRepayments": 3,
+    "lateRepayments": 0,
+    "defaults": 0,
+    "trustMetric": 9,
+    "incentiveScore": 90,
+    "updateDate": 1737045600,
+    "lastUpdated": 1737045600
+  },
+  "metadata": {
+    "farmerName": "Lakshmi Narayanan",
+    "location": "Tamil Nadu",
+    "crop": "sesame",
+    "landAcres": 2.3,
+    "cropClusterName": "Sesame/Gingelly Cluster",
+    "stateISO": "TN",
+    "districtName": "Salem",
+    "yieldHistory": [
+      {
+        "season": "2022-23",
+        "yieldKgPerAcre": 800,
+        "totalYieldKg": 1840
+      },
+      {
+        "season": "2023-24",
+        "yieldKgPerAcre": 875,
+        "totalYieldKg": 2013
+      },
+      {
+        "season": "2024-25",
+        "yieldKgPerAcre": 875,
+        "totalYieldKg": 2013
+      }
+    ],
+    "loanHistory": [
+      {
+        "loanId": "LOAN016",
+        "disbursedAmount": 4500000,
+        "repaidAmount": 4500000,
+        "disbursedDate": "2022-06-20",
+        "repaidDate": "2023-01-15",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN017",
+        "disbursedAmount": 6000000,
+        "repaidAmount": 6000000,
+        "disbursedDate": "2023-07-10",
+        "repaidDate": "2024-02-05",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN018",
+        "disbursedAmount": 8000000,
+        "repaidAmount": 8000000,
+        "disbursedDate": "2024-06-25",
+        "repaidDate": "2024-12-18",
+        "status": "on_time"
+      }
+    ],
+    "trustMetricFactors": {
+      "yieldConsistency": "Very High",
+      "repaymentHistory": "Excellent",
+      "landVerification": "Verified",
+      "cropInsurance": "Active"
+    },
+    "notes": "Small-scale sesame farmer with excellent credit discipline. Perfect repayment record despite smaller land holding. Ideal candidate for expanded credit facilities."
+  }
+}

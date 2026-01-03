@@ -1,0 +1,30 @@
+{
+  "batch_info": {
+    "batch_id": "234",
+    "quality_grade": "organic",
+    "quantity_kg": 33.0
+  },
+  "farmer_info": {
+    "crop_type": "sunflower",
+    "farmer_did": "0xc8439ffe73a3c8a52ed8bf5455a6714d01a7d235eddafe1b413dc8d0e469ee49",
+    "land_acres": 33.0
+  },
+  "logistics": {
+    "transport_cost": 495.0,
+    "transport_method": "truck",
+    "transport_rate_per_km": 15.0,
+    "travel_distance_km": 33.0
+  },
+  "pricing": {
+    "price_per_kg": 33.0,
+    "product_cost": 1089.0,
+    "total_cost": 1584.0,
+    "transport_cost": 495.0
+  },
+  "timestamp": "2025-12-09T05:42:14.036828044+00:00",
+  "transaction_type": "fpo_purchase",
+  "verification": {
+    "blockchain_hash": "pending",
+    "ipfs_stored": true
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "farmerCreditProfile": {
+    "farmerDID": "0xbdf9248c72997bbb4ea647f0e650b0126bfa977ca0661ce4c12f9725e466353b",
+    "stateCode": 6,
+    "districtCode": 602,
+    "cropClusterCode": 2,
+    "avgYieldKgPerAcre": 1250,
+    "AvgSeasonYieldIndex": 2,
+    "totalDisbursed": 28000000,
+    "totalRepaid": 28000000,
+    "onTimeRepayments": 5,
+    "lateRepayments": 0,
+    "defaults": 0,
+    "trustMetric": 9,
+    "incentiveScore": 92,
+    "updateDate": 1737045600,
+    "lastUpdated": 1737045600
+  },
+  "metadata": {
+    "farmerName": "Sunita Devi",
+    "location": "Haryana",
+    "crop": "sunflower",
+    "landAcres": 3.8,
+    "cropClusterName": "Sunflower Cluster",
+    "stateISO": "HR",
+    "districtName": "Hisar",
+    "yieldHistory": [
+      {
+        "season": "2022-23",
+        "yieldKgPerAcre": 1200,
+        "totalYieldKg": 4560
+      },
+      {
+        "season": "2023-24",
+        "yieldKgPerAcre": 1300,
+        "totalYieldKg": 4940
+      }
+    ],
+    "loanHistory": [
+      {
+        "loanId": "LOAN005",
+        "disbursedAmount": 5000000,
+        "repaidAmount": 5000000,
+        "disbursedDate": "2022-05-10",
+        "repaidDate": "2022-12-15",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN006",
+        "disbursedAmount": 6500000,
+        "repaidAmount": 6500000,
+        "disbursedDate": "2023-04-20",
+        "repaidDate": "2023-11-10",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN007",
+        "disbursedAmount": 7500000,
+        "repaidAmount": 7500000,
+        "disbursedDate": "2023-12-01",
+        "repaidDate": "2024-06-20",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN008",
+        "disbursedAmount": 4500000,
+        "repaidAmount": 4500000,
+        "disbursedDate": "2024-07-15",
+        "repaidDate": "2024-12-05",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN009",
+        "disbursedAmount": 4500000,
+        "repaidAmount": 4500000,
+        "disbursedDate": "2024-08-10",
+        "repaidDate": "2024-12-20",
+        "status": "on_time"
+      }
+    ],
+    "trustMetricFactors": {
+      "yieldConsistency": "Very High",
+      "repaymentHistory": "Excellent",
+      "landVerification": "Verified",
+      "cropInsurance": "Active"
+    },
+    "notes": "Exemplary farmer with perfect repayment record and consistent sunflower yields. High trust score qualifies for premium incentives."
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "cropClusters": {
+    "1": {
+      "code": 1,
+      "name": "Mustard/Rapeseed Cluster",
+      "cropType": "mustard",
+      "scientificName": "Brassica juncea",
+      "averageYieldRange": {
+        "min": 1200,
+        "max": 1800,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Rabi (October-April)",
+      "majorStates": ["Punjab", "Haryana", "Rajasthan", "Madhya Pradesh"],
+      "climaticZone": "Semi-arid to temperate",
+      "soilType": "Well-drained loamy soil",
+      "irrigationRequirement": "Medium",
+      "marketPrice": {
+        "average": 5500,
+        "currency": "INR per quintal"
+      }
+    },
+    "2": {
+      "code": 2,
+      "name": "Sunflower Cluster",
+      "cropType": "sunflower",
+      "scientificName": "Helianthus annuus",
+      "averageYieldRange": {
+        "min": 1000,
+        "max": 1500,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Kharif (June-November) & Rabi (December-April)",
+      "majorStates": ["Karnataka", "Andhra Pradesh", "Maharashtra", "Haryana"],
+      "climaticZone": "Semi-arid to humid",
+      "soilType": "Well-drained sandy loam",
+      "irrigationRequirement": "Low to Medium",
+      "marketPrice": {
+        "average": 6200,
+        "currency": "INR per quintal"
+      }
+    },
+    "3": {
+      "code": 3,
+      "name": "Groundnut/Peanut Cluster",
+      "cropType": "groundnut",
+      "scientificName": "Arachis hypogaea",
+      "averageYieldRange": {
+        "min": 1800,
+        "max": 2500,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Kharif (June-October)",
+      "majorStates": ["Gujarat", "Rajasthan", "Tamil Nadu", "Andhra Pradesh", "Karnataka"],
+      "climaticZone": "Semi-arid to humid subtropical",
+      "soilType": "Sandy loam with good drainage",
+      "irrigationRequirement": "Medium",
+      "marketPrice": {
+        "average": 5800,
+        "currency": "INR per quintal"
+      }
+    },
+    "4": {
+      "code": 4,
+      "name": "Sesame/Gingelly Cluster",
+      "cropType": "sesame",
+      "scientificName": "Sesamum indicum",
+      "averageYieldRange": {
+        "min": 600,
+        "max": 1000,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Kharif (June-October) & Summer (February-May)",
+      "majorStates": ["West Bengal", "Uttar Pradesh", "Madhya Pradesh", "Gujarat", "Tamil Nadu"],
+      "climaticZone": "Tropical and subtropical",
+      "soilType": "Well-drained fertile soil",
+      "irrigationRequirement": "Low",
+      "marketPrice": {
+        "average": 8500,
+        "currency": "INR per quintal"
+      }
+    },
+    "5": {
+      "code": 5,
+      "name": "Soybean Cluster",
+      "cropType": "soybean",
+      "scientificName": "Glycine max",
+      "averageYieldRange": {
+        "min": 1400,
+        "max": 2200,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Kharif (June-October)",
+      "majorStates": ["Madhya Pradesh", "Maharashtra", "Rajasthan", "Karnataka"],
+      "climaticZone": "Warm humid to semi-arid",
+      "soilType": "Well-drained loamy soil",
+      "irrigationRequirement": "Medium",
+      "marketPrice": {
+        "average": 4200,
+        "currency": "INR per quintal"
+      }
+    },
+    "6": {
+      "code": 6,
+      "name": "Safflower Cluster",
+      "cropType": "safflower",
+      "scientificName": "Carthamus tinctorius",
+      "averageYieldRange": {
+        "min": 800,
+        "max": 1200,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Rabi (October-March)",
+      "majorStates": ["Maharashtra", "Karnataka", "Andhra Pradesh", "Madhya Pradesh"],
+      "climaticZone": "Semi-arid",
+      "soilType": "Well-drained medium black soil",
+      "irrigationRequirement": "Low",
+      "marketPrice": {
+        "average": 5200,
+        "currency": "INR per quintal"
+      }
+    },
+    "7": {
+      "code": 7,
+      "name": "Niger Seed Cluster",
+      "cropType": "niger",
+      "scientificName": "Guizotia abyssinica",
+      "averageYieldRange": {
+        "min": 400,
+        "max": 800,
+        "unit": "kg/acre"
+      },
+      "growingSeason": "Kharif (June-November)",
+      "majorStates": ["Odisha", "Madhya Pradesh", "Chhattisgarh", "Bihar", "Jharkhand"],
+      "climaticZone": "Tropical to subtropical",
+      "soilType": "Well-drained red laterite soil",
+      "irrigationRequirement": "Low",
+      "marketPrice": {
+        "average": 7500,
+        "currency": "INR per quintal"
+      }
+    }
+  },
+  "stateCodes": {
+    "3": {
+      "code": 3,
+      "name": "Punjab",
+      "iso": "PB",
+      "region": "North",
+      "districts": {
+        "301": "Bathinda",
+        "302": "Ludhiana",
+        "303": "Amritsar",
+        "304": "Patiala"
+      }
+    },
+    "6": {
+      "code": 6,
+      "name": "Haryana",
+      "iso": "HR",
+      "region": "North",
+      "districts": {
+        "601": "Gurugram",
+        "602": "Hisar",
+        "603": "Karnal",
+        "604": "Faridabad"
+      }
+    },
+    "9": {
+      "code": 9,
+      "name": "Uttar Pradesh",
+      "iso": "UP",
+      "region": "North",
+      "districts": {
+        "901": "Lucknow",
+        "902": "Kanpur",
+        "903": "Jhansi",
+        "904": "Agra"
+      }
+    },
+    "27": {
+      "code": 27,
+      "name": "Maharashtra",
+      "iso": "MH",
+      "region": "West",
+      "districts": {
+        "2701": "Mumbai",
+        "2702": "Pune",
+        "2703": "Nagpur",
+        "2704": "Nashik",
+        "2705": "Latur"
+      }
+    },
+    "33": {
+      "code": 33,
+      "name": "Tamil Nadu",
+      "iso": "TN",
+      "region": "South",
+      "districts": {
+        "3301": "Chennai",
+        "3302": "Coimbatore",
+        "3303": "Madurai",
+        "3304": "Salem",
+        "3305": "Tiruchirappalli"
+      }
+    }
+  },
+  "yieldBenchmarks": {
+    "excellent": {
+      "description": "Top 10% performers",
+      "multiplier": 1.4
+    },
+    "good": {
+      "description": "Top 25% performers",
+      "multiplier": 1.2
+    },
+    "average": {
+      "description": "Average performers",
+      "multiplier": 1.0
+    },
+    "below_average": {
+      "description": "Below average performers",
+      "multiplier": 0.8
+    },
+    "poor": {
+      "description": "Bottom 25% performers",
+      "multiplier": 0.6
+    }
+  },
+  "trustMetricCriteria": {
+    "9-10": {
+      "level": "Excellent",
+      "description": "Outstanding farmer with perfect track record",
+      "benefits": ["Premium interest rates", "Extended credit limits", "Fast-track approvals"],
+      "requirements": ["Zero defaults", "Consistent yields", "Perfect repayment history"]
+    },
+    "7-8": {
+      "level": "Good",
+      "description": "Reliable farmer with strong performance",
+      "benefits": ["Competitive interest rates", "Standard credit limits", "Priority processing"],
+      "requirements": ["Minimal defaults", "Good yield consistency", "Mostly on-time payments"]
+    },
+    "5-6": {
+      "level": "Average",
+      "description": "Adequate performance with some concerns",
+      "benefits": ["Standard interest rates", "Basic credit limits", "Normal processing"],
+      "requirements": ["Some defaults acceptable", "Variable yields", "Generally reliable"]
+    },
+    "3-4": {
+      "level": "Below Average",
+      "description": "Marginal performance requiring monitoring",
+      "benefits": ["Higher interest rates", "Limited credit", "Enhanced monitoring"],
+      "requirements": ["Multiple defaults", "Poor yield consistency", "Payment delays"]
+    },
+    "0-2": {
+      "level": "Poor",
+      "description": "High-risk farmer requiring intervention",
+      "benefits": ["Premium rates", "Minimal credit", "Intensive support"],
+      "requirements": ["Frequent defaults", "Very poor yields", "Irregular payments"]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-16",
+    "description": "Comprehensive oilseed crop cluster mapping with yield benchmarks and trust metrics",
+    "totalClusters": 7,
+    "totalStates": 5,
+    "source": "National Sample Survey Office (NSSO) and Agricultural Statistics at a Glance"
+  }
+}

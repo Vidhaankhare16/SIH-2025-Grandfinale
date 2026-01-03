@@ -1,0 +1,99 @@
+{
+  "name": "Farmer Credit Profile - Rajesh Kumar",
+  "description": "Tokenized credit profile for Rajesh Kumar specializing in mustard cultivation in Punjab. This NFT represents the farmer's creditworthiness and financial history on the blockchain.",
+  "image": "https://api.dicebear.com/7.x/identicon/svg?seed=0x7619ee8cea49187f309616e30ecf54be072259b43760f1f550a644945d5572f2",
+  "external_url": "https://oilseed-valuechain.gov.in",
+  "animation_url": null,
+  "attributes": [
+    {
+      "trait_type": "Farmer Name",
+      "value": "Rajesh Kumar"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Punjab"
+    },
+    {
+      "trait_type": "Crop Type",
+      "value": "mustard"
+    },
+    {
+      "trait_type": "Land Area (Acres)",
+      "value": 5.2,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Trust Metric",
+      "value": 8,
+      "display_type": "number",
+      "max_value": 10
+    },
+    {
+      "trait_type": "Incentive Score",
+      "value": 85,
+      "display_type": "number",
+      "max_value": 100
+    },
+    {
+      "trait_type": "Average Yield (Kg/Acre)",
+      "value": 1450,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Repayment Success Rate",
+      "value": 80,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Total Loans",
+      "value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "On-Time Repayments",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Late Repayments",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Defaults",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Credit Risk Level",
+      "value": "Low Risk"
+    },
+    {
+      "trait_type": "Premium Eligible",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Deployment Type",
+      "value": "IPFS Native"
+    },
+    {
+      "trait_type": "Verification Status",
+      "value": "Verified"
+    }
+  ],
+  "properties": {
+    "farmerDID": "0x7619ee8cea49187f309616e30ecf54be072259b43760f1f550a644945d5572f2",
+    "mobile": "9876543210",
+    "stateCode": 3,
+    "districtCode": 301,
+    "cropClusterCode": 1,
+    "tokenId": 1,
+    "registrationDate": "2024-01-15",
+    "contractVersion": "1.0",
+    "deploymentType": "IPFS",
+    "lastUpdated": "2025-01-16T16:40:00.000Z",
+    "generatedAt": "2025-12-09T03:47:24.229Z",
+    "ipfsGateway": "http://localhost:8080/ipfs/"
+  },
+  "compiler": "NFT Metadata Generator v1.0"
+}
