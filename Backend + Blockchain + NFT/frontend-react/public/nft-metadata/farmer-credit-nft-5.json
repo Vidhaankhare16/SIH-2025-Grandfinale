@@ -1,0 +1,99 @@
+{
+  "name": "Farmer Credit Profile - Mohammed Iqbal",
+  "description": "Tokenized credit profile for Mohammed Iqbal specializing in soybean cultivation in Maharashtra. This NFT represents the farmer's creditworthiness and financial history on the blockchain.",
+  "image": "https://api.dicebear.com/7.x/identicon/svg?seed=0xc8439ffe73a3c8a52ed8bf5455a6714d01a7d235eddafe1b413dc8d0e469ee49",
+  "external_url": "https://oilseed-valuechain.gov.in",
+  "animation_url": null,
+  "attributes": [
+    {
+      "trait_type": "Farmer Name",
+      "value": "Mohammed Iqbal"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Maharashtra"
+    },
+    {
+      "trait_type": "Crop Type",
+      "value": "soybean"
+    },
+    {
+      "trait_type": "Land Area (Acres)",
+      "value": 4.1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Trust Metric",
+      "value": 7,
+      "display_type": "number",
+      "max_value": 10
+    },
+    {
+      "trait_type": "Incentive Score",
+      "value": 75,
+      "display_type": "number",
+      "max_value": 100
+    },
+    {
+      "trait_type": "Average Yield (Kg/Acre)",
+      "value": 1800,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Repayment Success Rate",
+      "value": 80,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Total Loans",
+      "value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "On-Time Repayments",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Late Repayments",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Defaults",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Credit Risk Level",
+      "value": "Medium Risk"
+    },
+    {
+      "trait_type": "Premium Eligible",
+      "value": "No"
+    },
+    {
+      "trait_type": "Deployment Type",
+      "value": "IPFS Native"
+    },
+    {
+      "trait_type": "Verification Status",
+      "value": "Verified"
+    }
+  ],
+  "properties": {
+    "farmerDID": "0xc8439ffe73a3c8a52ed8bf5455a6714d01a7d235eddafe1b413dc8d0e469ee49",
+    "mobile": "9765432109",
+    "stateCode": 27,
+    "districtCode": 2705,
+    "cropClusterCode": 5,
+    "tokenId": 5,
+    "registrationDate": "2024-05-12",
+    "contractVersion": "1.0",
+    "deploymentType": "IPFS",
+    "lastUpdated": "2025-01-16T16:40:00.000Z",
+    "generatedAt": "2025-12-09T03:47:24.233Z",
+    "ipfsGateway": "http://localhost:8080/ipfs/"
+  },
+  "compiler": "NFT Metadata Generator v1.0"
+}

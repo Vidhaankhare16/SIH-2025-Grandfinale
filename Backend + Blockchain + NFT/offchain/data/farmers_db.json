@@ -1,0 +1,75 @@
+{
+  "farmers": [
+    {
+      "mobile": "9876543210",
+      "farmer_did": "0x7619ee8cea49187f309616e30ecf54be072259b43760f1f550a644945d5572f2",
+      "name": "Rajesh Kumar",
+      "location": "Punjab",
+      "state_code": "PB",
+      "district_code": "PB001",
+      "land_acres": 5.2,
+      "crop": "mustard",
+      "verified": true,
+      "registration_date": "2024-01-15",
+      "ipfscid": ""
+    },
+    {
+      "mobile": "9123456789",
+      "farmer_did": "0xbdf9248c72997bbb4ea647f0e650b0126bfa977ca0661ce4c12f9725e466353b",
+      "name": "Sunita Devi",
+      "location": "Haryana",
+      "state_code": "HR",
+      "district_code": "HR002",
+      "land_acres": 3.8,
+      "crop": "sunflower",
+      "verified": true,
+      "registration_date": "2024-02-20",
+      "ipfscid": ""
+    },
+    {
+      "mobile": "9988776655",
+      "farmer_did": "0x0b940fdc24ec51a1e8e0d374324eb1ae36c8dd28309926f2bd97133da7f6523b",
+      "name": "Amit Singh",
+      "location": "Uttar Pradesh",
+      "state_code": "UP",
+      "district_code": "UP003",
+      "land_acres": 7.5,
+      "crop": "groundnut",
+      "verified": true,
+      "registration_date": "2024-03-10",
+      "ipfscid": ""
+    },
+    {
+      "mobile": "9871234567",
+      "farmer_did": "0x49925f9c10ab6c6d5881c0002ebabf483a41573b186de265c851589916cce2f4",
+      "name": "Lakshmi Narayanan",
+      "location": "Tamil Nadu",
+      "state_code": "TN",
+      "district_code": "TN004",
+      "land_acres": 2.3,
+      "crop": "sesame",
+      "verified": true,
+      "registration_date": "2024-04-05",
+      "ipfscid": ""
+    },
+    {
+      "mobile": "9765432109",
+      "farmer_did": "0xc8439ffe73a3c8a52ed8bf5455a6714d01a7d235eddafe1b413dc8d0e469ee49",
+      "name": "Mohammed Iqbal",
+      "location": "Maharashtra",
+      "state_code": "MH",
+      "district_code": "MH005",
+      "land_acres": 4.1,
+      "crop": "soybean",
+      "verified": true,
+      "registration_date": "2024-05-12",
+      "ipfscid": ""
+    }
+  ],
+  "metadata": {
+    "version": "1.1",
+    "last_updated": "2025-01-15",
+    "total_farmers": 5,
+    "description": "Farmer verification database with SHA-256 hashed DIDs from mobile numbers, including state/district codes, land area, and crop information"
+  }
+}

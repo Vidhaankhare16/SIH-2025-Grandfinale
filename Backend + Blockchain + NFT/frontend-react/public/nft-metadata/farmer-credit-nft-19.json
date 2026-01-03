@@ -1,0 +1,99 @@
+{
+  "name": "Farmer Credit Profile - Amit Singh",
+  "description": "Tokenized credit profile for Amit Singh specializing in groundnut cultivation in Uttar Pradesh. This NFT represents the farmer's creditworthiness and financial history on the blockchain.",
+  "image": "https://api.dicebear.com/7.x/identicon/svg?seed=0x0b940fdc24ec51a1e8e0d374324eb1ae36c8dd28309926f2bd97133da7f6523b",
+  "external_url": "https://oilseed-valuechain.gov.in",
+  "animation_url": null,
+  "attributes": [
+    {
+      "trait_type": "Farmer Name",
+      "value": "Amit Singh"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Uttar Pradesh"
+    },
+    {
+      "trait_type": "Crop Type",
+      "value": "groundnut"
+    },
+    {
+      "trait_type": "Land Area (Acres)",
+      "value": 7.5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Trust Metric",
+      "value": 6,
+      "display_type": "number",
+      "max_value": 10
+    },
+    {
+      "trait_type": "Incentive Score",
+      "value": 65,
+      "display_type": "number",
+      "max_value": 100
+    },
+    {
+      "trait_type": "Average Yield (Kg/Acre)",
+      "value": 2200,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Repayment Success Rate",
+      "value": 50,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Total Loans",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "On-Time Repayments",
+      "value": 3,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Late Repayments",
+      "value": 2,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Defaults",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Credit Risk Level",
+      "value": "Medium Risk"
+    },
+    {
+      "trait_type": "Premium Eligible",
+      "value": "No"
+    },
+    {
+      "trait_type": "Deployment Type",
+      "value": "IPFS Native"
+    },
+    {
+      "trait_type": "Verification Status",
+      "value": "Verified"
+    }
+  ],
+  "properties": {
+    "farmerDID": "0x0b940fdc24ec51a1e8e0d374324eb1ae36c8dd28309926f2bd97133da7f6523b",
+    "mobile": "9988776655",
+    "stateCode": 9,
+    "districtCode": 903,
+    "cropClusterCode": 3,
+    "tokenId": 19,
+    "registrationDate": "2024-03-10",
+    "contractVersion": "1.0",
+    "deploymentType": "IPFS",
+    "lastUpdated": "2025-01-16T16:40:00.000Z",
+    "generatedAt": "2025-12-09T03:52:21.670Z",
+    "ipfsGateway": "http://localhost:8080/ipfs/"
+  },
+  "compiler": "NFT Metadata Generator v1.0"
+}

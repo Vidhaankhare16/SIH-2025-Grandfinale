@@ -1,0 +1,99 @@
+{
+  "name": "Farmer Credit Profile - Sunita Devi",
+  "description": "Tokenized credit profile for Sunita Devi specializing in sunflower cultivation in Haryana. This NFT represents the farmer's creditworthiness and financial history on the blockchain.",
+  "image": "https://api.dicebear.com/7.x/identicon/svg?seed=0xbdf9248c72997bbb4ea647f0e650b0126bfa977ca0661ce4c12f9725e466353b",
+  "external_url": "https://oilseed-valuechain.gov.in",
+  "animation_url": null,
+  "attributes": [
+    {
+      "trait_type": "Farmer Name",
+      "value": "Sunita Devi"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Haryana"
+    },
+    {
+      "trait_type": "Crop Type",
+      "value": "sunflower"
+    },
+    {
+      "trait_type": "Land Area (Acres)",
+      "value": 3.8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Trust Metric",
+      "value": 9,
+      "display_type": "number",
+      "max_value": 10
+    },
+    {
+      "trait_type": "Incentive Score",
+      "value": 92,
+      "display_type": "number",
+      "max_value": 100
+    },
+    {
+      "trait_type": "Average Yield (Kg/Acre)",
+      "value": 1250,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Repayment Success Rate",
+      "value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Total Loans",
+      "value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "On-Time Repayments",
+      "value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Late Repayments",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Defaults",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Credit Risk Level",
+      "value": "Low Risk"
+    },
+    {
+      "trait_type": "Premium Eligible",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Deployment Type",
+      "value": "IPFS Native"
+    },
+    {
+      "trait_type": "Verification Status",
+      "value": "Verified"
+    }
+  ],
+  "properties": {
+    "farmerDID": "0xbdf9248c72997bbb4ea647f0e650b0126bfa977ca0661ce4c12f9725e466353b",
+    "mobile": "9123456789",
+    "stateCode": 6,
+    "districtCode": 602,
+    "cropClusterCode": 2,
+    "tokenId": 2,
+    "registrationDate": "2024-02-20",
+    "contractVersion": "1.0",
+    "deploymentType": "IPFS",
+    "lastUpdated": "2025-01-16T16:40:00.000Z",
+    "generatedAt": "2025-12-09T03:47:24.231Z",
+    "ipfsGateway": "http://localhost:8080/ipfs/"
+  },
+  "compiler": "NFT Metadata Generator v1.0"
+}

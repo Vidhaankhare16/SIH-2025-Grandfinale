@@ -1,0 +1,99 @@
+{
+  "farmerCreditProfile": {
+    "farmerDID": "0xc8439ffe73a3c8a52ed8bf5455a6714d01a7d235eddafe1b413dc8d0e469ee49",
+    "stateCode": 27,
+    "districtCode": 2705,
+    "cropClusterCode": 5,
+    "avgYieldKgPerAcre": 1800,
+    "AvgSeasonYieldIndex": 4,
+    "totalDisbursed": 42000000,
+    "totalRepaid": 38500000,
+    "onTimeRepayments": 4,
+    "lateRepayments": 1,
+    "defaults": 0,
+    "trustMetric": 7,
+    "incentiveScore": 75,
+    "updateDate": 1737045600,
+    "lastUpdated": 1737045600
+  },
+  "metadata": {
+    "farmerName": "Mohammed Iqbal",
+    "location": "Maharashtra",
+    "crop": "soybean",
+    "landAcres": 4.1,
+    "cropClusterName": "Soybean Cluster",
+    "stateISO": "MH",
+    "districtName": "Latur",
+    "yieldHistory": [
+      {
+        "season": "2021-22",
+        "yieldKgPerAcre": 1650,
+        "totalYieldKg": 6765
+      },
+      {
+        "season": "2022-23",
+        "yieldKgPerAcre": 1850,
+        "totalYieldKg": 7585
+      },
+      {
+        "season": "2023-24",
+        "yieldKgPerAcre": 1750,
+        "totalYieldKg": 7175
+      },
+      {
+        "season": "2024-25",
+        "yieldKgPerAcre": 1950,
+        "totalYieldKg": 7995
+      }
+    ],
+    "loanHistory": [
+      {
+        "loanId": "LOAN019",
+        "disbursedAmount": 8500000,
+        "repaidAmount": 8500000,
+        "disbursedDate": "2021-04-12",
+        "repaidDate": "2021-11-28",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN020",
+        "disbursedAmount": 10000000,
+        "repaidAmount": 10000000,
+        "disbursedDate": "2022-03-18",
+        "repaidDate": "2022-10-15",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN021",
+        "disbursedAmount": 12000000,
+        "repaidAmount": 12000000,
+        "disbursedDate": "2023-04-05",
+        "repaidDate": "2023-11-20",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN022",
+        "disbursedAmount": 6000000,
+        "repaidAmount": 6000000,
+        "disbursedDate": "2023-12-10",
+        "repaidDate": "2024-07-25",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN023",
+        "disbursedAmount": 5500000,
+        "repaidAmount": 2000000,
+        "disbursedDate": "2024-08-15",
+        "repaidDate": "2025-01-10",
+        "status": "late"
+      }
+    ],
+    "trustMetricFactors": {
+      "yieldConsistency": "Good",
+      "repaymentHistory": "Good",
+      "landVerification": "Verified",
+      "cropInsurance": "Active"
+    },
+    "notes": "Progressive soybean farmer with good yield trends and generally reliable repayments. Recent late payment due to delayed crop sales but showing commitment to repay."
+  }
+}

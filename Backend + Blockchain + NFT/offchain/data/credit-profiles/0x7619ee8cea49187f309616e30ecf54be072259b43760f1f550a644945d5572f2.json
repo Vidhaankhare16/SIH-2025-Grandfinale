@@ -1,0 +1,86 @@
+{
+  "farmerCreditProfile": {
+    "farmerDID": "0x7619ee8cea49187f309616e30ecf54be072259b43760f1f550a644945d5572f2",
+    "stateCode": 3,
+    "districtCode": 301,
+    "cropClusterCode": 1,
+    "avgYieldKgPerAcre": 1450,
+    "AvgSeasonYieldIndex": 3,
+    "totalDisbursed": 35000000,
+    "totalRepaid": 31500000,
+    "onTimeRepayments": 4,
+    "lateRepayments": 1,
+    "defaults": 0,
+    "trustMetric": 8,
+    "incentiveScore": 85,
+    "updateDate": 1737045600,
+    "lastUpdated": 1737045600
+  },
+  "metadata": {
+    "farmerName": "Rajesh Kumar",
+    "location": "Punjab",
+    "crop": "mustard",
+    "landAcres": 5.2,
+    "cropClusterName": "Mustard/Rapeseed Cluster",
+    "stateISO": "PB",
+    "districtName": "Bathinda",
+    "yieldHistory": [
+      {
+        "season": "2022-23",
+        "yieldKgPerAcre": 1300,
+        "totalYieldKg": 6760
+      },
+      {
+        "season": "2023-24",
+        "yieldKgPerAcre": 1500,
+        "totalYieldKg": 7800
+      },
+      {
+        "season": "2024-25",
+        "yieldKgPerAcre": 1550,
+        "totalYieldKg": 8060
+      }
+    ],
+    "loanHistory": [
+      {
+        "loanId": "LOAN001",
+        "disbursedAmount": 8000000,
+        "repaidAmount": 8000000,
+        "disbursedDate": "2022-04-15",
+        "repaidDate": "2022-11-20",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN002",
+        "disbursedAmount": 9500000,
+        "repaidAmount": 9500000,
+        "disbursedDate": "2023-03-10",
+        "repaidDate": "2023-10-25",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN003",
+        "disbursedAmount": 12000000,
+        "repaidAmount": 12000000,
+        "disbursedDate": "2023-11-05",
+        "repaidDate": "2024-05-15",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN004",
+        "disbursedAmount": 5500000,
+        "repaidAmount": 2000000,
+        "disbursedDate": "2024-06-20",
+        "repaidDate": "2024-12-30",
+        "status": "late"
+      }
+    ],
+    "trustMetricFactors": {
+      "yieldConsistency": "High",
+      "repaymentHistory": "Good",
+      "landVerification": "Verified",
+      "cropInsurance": "Active"
+    },
+    "notes": "Experienced mustard farmer with good yield consistency. One late payment due to market price fluctuations but fully repaid."
+  }
+}

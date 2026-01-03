@@ -1,0 +1,107 @@
+{
+  "farmerCreditProfile": {
+    "farmerDID": "0x0b940fdc24ec51a1e8e0d374324eb1ae36c8dd28309926f2bd97133da7f6523b",
+    "stateCode": 9,
+    "districtCode": 903,
+    "cropClusterCode": 3,
+    "avgYieldKgPerAcre": 2200,
+    "AvgSeasonYieldIndex": 4,
+    "totalDisbursed": 52000000,
+    "totalRepaid": 45500000,
+    "onTimeRepayments": 3,
+    "lateRepayments": 2,
+    "defaults": 1,
+    "trustMetric": 6,
+    "incentiveScore": 65,
+    "updateDate": 1737045600,
+    "lastUpdated": 1737045600
+  },
+  "metadata": {
+    "farmerName": "Amit Singh",
+    "location": "Uttar Pradesh",
+    "crop": "groundnut",
+    "landAcres": 7.5,
+    "cropClusterName": "Groundnut/Peanut Cluster",
+    "stateISO": "UP",
+    "districtName": "Jhansi",
+    "yieldHistory": [
+      {
+        "season": "2021-22",
+        "yieldKgPerAcre": 1950,
+        "totalYieldKg": 14625
+      },
+      {
+        "season": "2022-23",
+        "yieldKgPerAcre": 2300,
+        "totalYieldKg": 17250
+      },
+      {
+        "season": "2023-24",
+        "yieldKgPerAcre": 2150,
+        "totalYieldKg": 16125
+      },
+      {
+        "season": "2024-25",
+        "yieldKgPerAcre": 2400,
+        "totalYieldKg": 18000
+      }
+    ],
+    "loanHistory": [
+      {
+        "loanId": "LOAN010",
+        "disbursedAmount": 12000000,
+        "repaidAmount": 12000000,
+        "disbursedDate": "2021-06-15",
+        "repaidDate": "2022-01-20",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN011",
+        "disbursedAmount": 15000000,
+        "repaidAmount": 15000000,
+        "disbursedDate": "2022-05-10",
+        "repaidDate": "2022-12-30",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN012",
+        "disbursedAmount": 8000000,
+        "repaidAmount": 8000000,
+        "disbursedDate": "2023-03-25",
+        "repaidDate": "2023-11-15",
+        "status": "on_time"
+      },
+      {
+        "loanId": "LOAN013",
+        "disbursedAmount": 10000000,
+        "repaidAmount": 7500000,
+        "disbursedDate": "2023-08-12",
+        "repaidDate": "2024-03-25",
+        "status": "late"
+      },
+      {
+        "loanId": "LOAN014",
+        "disbursedAmount": 7000000,
+        "repaidAmount": 3000000,
+        "disbursedDate": "2024-04-18",
+        "repaidDate": "2024-12-10",
+        "status": "late"
+      },
+      {
+        "loanId": "LOAN015",
+        "disbursedAmount": 6500000,
+        "repaidAmount": 0,
+        "disbursedDate": "2024-09-05",
+        "repaidDate": null,
+        "status": "default"
+      }
+    ],
+    "trustMetricFactors": {
+      "yieldConsistency": "Good",
+      "repaymentHistory": "Moderate",
+      "landVerification": "Verified",
+      "cropInsurance": "Inactive"
+    },
+    "notes": "Large groundnut farmer with good yields but recent financial difficulties. One loan in default and needs closer monitoring. Potential for recovery with proper support."
+  }
+}

@@ -1,0 +1,535 @@
+/* Transaction Result Component Styles */
+.transaction-result {
+    animation: fadeIn 0.5s ease-in-out;
+    border: 3px solid var(--color-success);
+}
+
+.result-header-success {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: linear-gradient(
+        135deg,
+        rgba(45, 161, 67, 0.1) 0%,
+        rgba(164, 214, 109, 0.15) 100%
+    );
+    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border-success);
+}
+
+.icon-extra-large {
+    font-size: 4rem;
+    line-height: 1;
+    animation: bounceIn 0.6s ease-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.result-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin: 0 0 var(--spacing-xs) 0;
+}
+
+.result-subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Result Content */
+.result-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+/* Result Sections */
+.result-section {
+    padding: var(--spacing-lg);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-light);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.section-header .icon {
+    font-size: 1.5rem;
+}
+
+/* Hash Container */
+.hash-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing);
+    background: var(--color-white);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+}
+
+.hash-value {
+    flex: 1;
+    font-family: var(--font-family-mono);
+    font-size: 0.875rem;
+    color: var(--color-text-primary);
+    word-break: break-all;
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+
+.btn-copy {
+    background: var(--color-primary-light);
+    color: var(--color-white);
+    border: none;
+    padding: var(--spacing-xs) var(--spacing);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all var(--transition-fast);
+    flex-shrink: 0;
+}
+
+.btn-copy:hover {
+    background: var(--color-primary);
+    transform: scale(1.1);
+}
+
+.btn-copy:active {
+    transform: scale(0.95);
+}
+
+/* External Links */
+.link-external {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all var(--transition-fast);
+    margin-bottom: var(--spacing);
+}
+
+.link-external:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+    transform: translateX(4px);
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-secondary:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.btn-secondary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* IPFS Data Section */
+.ipfs-data-section {
+    background: var(--color-bg-success);
+    border: 2px solid var(--color-border-success);
+}
+
+.ipfs-data-content {
+    background: var(--color-white);
+    padding: var(--spacing-md);
+    border-radius: var(--radius);
+    overflow-x: auto;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin: 0;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid var(--color-border-success);
+    font-family: var(--font-family-mono);
+}
+
+.ipfs-data-content::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.ipfs-data-content::-webkit-scrollbar-track {
+    background: var(--color-bg-success);
+    border-radius: var(--radius-sm);
+}
+
+.ipfs-data-content::-webkit-scrollbar-thumb {
+    background: var(--color-primary-light);
+    border-radius: var(--radius-sm);
+}
+
+.ipfs-data-content::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* QR Code Section */
+.qr-section {
+    background: linear-gradient(
+        135deg,
+        rgba(15, 77, 34, 0.05) 0%,
+        rgba(164, 214, 109, 0.1) 100%
+    );
+    border: 2px solid var(--color-primary-light);
+    text-align: center;
+}
+
+.qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing);
+    padding: var(--spacing-lg);
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing);
+}
+
+.qr-container svg {
+    border: 4px solid var(--color-primary-light);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+}
+
+.qr-hint {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* Success Footer */
+.success-footer {
+    padding: var(--spacing-lg);
+    background: linear-gradient(
+        135deg,
+        rgba(45, 161, 67, 0.1) 0%,
+        rgba(164, 214, 109, 0.15) 100%
+    );
+    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border-success);
+    text-align: center;
+}
+
+.success-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background: var(--color-success);
+    color: var(--color-white);
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: var(--spacing);
+    box-shadow: var(--shadow);
+}
+
+.success-badge .icon {
+    font-size: 1.25rem;
+}
+
+.success-hint {
+    margin: var(--spacing) 0 0 0;
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .result-header-success {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .result-title {
+        font-size: 1.5rem;
+    }
+
+    .result-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hash-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-copy {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .qr-container svg {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .ipfs-data-content {
+        font-size: 0.75rem;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-extra-large {
+        font-size: 3rem;
+    }
+
+    .result-title {
+        font-size: 1.25rem;
+    }
+
+    .result-section {
+        padding: var(--spacing);
+    }
+
+    .section-header {
+        font-size: 1rem;
+    }
+
+    .qr-container svg {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .success-badge {
+        font-size: 0.875rem;
+        padding: var(--spacing-xs) var(--spacing);
+    }
+}
+
+/* Print Styles */
+@media print {
+    .btn-copy,
+    .btn-secondary,
+    .link-external {
+        display: none;
+    }
+
+    .transaction-result {
+        border: 2px solid var(--color-black);
+        box-shadow: none;
+    }
+
+    .qr-container svg {
+        border: 2px solid var(--color-black);
+    }
+}
+
+/* NFT Section Styles */
+.nft-section {
+    background: linear-gradient(
+        135deg,
+        rgba(123, 31, 162, 0.05) 0%,
+        rgba(103, 58, 183, 0.1) 100%
+    );
+    border: 2px solid #7b1fa2;
+}
+
+.nft-loading {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--color-white);
+    border-radius: var(--radius);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+.spinner-small {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #7b1fa2;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.nft-info {
+    background: var(--color-white);
+    padding: var(--spacing-md);
+    border-radius: var(--radius);
+    border: 1px solid #e1bee7;
+}
+
+.nft-minted-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.nft-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: #f9f9f9;
+    border-radius: var(--radius-sm);
+    border: 1px solid #e9ecef;
+}
+
+.nft-token-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-label {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+}
+
+.nft-value {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    font-size: 0.875rem;
+}
+
+.nft-value.success {
+    color: var(--color-success);
+    font-weight: 700;
+}
+
+.btn-nft-view {
+    background: linear-gradient(45deg, #7b1fa2, #673ab7);
+    color: white;
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(123, 31, 162, 0.3);
+}
+
+.btn-nft-view:hover {
+    background: linear-gradient(45deg, #673ab7, #512da8);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(123, 31, 162, 0.4);
+}
+
+.btn-nft-view:active {
+    transform: translateY(0);
+}
+
+.nft-error {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+/* Responsive NFT Styles */
+@media (max-width: 768px) {
+    .nft-details {
+        padding: var(--spacing-xs);
+    }
+
+    .nft-token-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .btn-nft-view {
+        padding: var(--spacing) var(--spacing-md);
+        font-size: 0.9rem;
+    }
+}
