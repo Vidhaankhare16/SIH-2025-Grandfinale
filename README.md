@@ -1,4 +1,4 @@
-# KisanSetu - Smart Agricultural Supply Chain Platform
+# KisanSetu - Smart Agricultural Supply Chain Platform (Winner, SIH 2025 , PS- 25270)
 
 🌾 **Live Demo**: [https://sih-8e6n53zfa-vidhaan-khares-projects.vercel.app/](https://sih-8e6n53zfa-vidhaan-khares-projects.vercel.app/)
 
