@@ -19,7 +19,7 @@ KisanSetu is a comprehensive digital platform designed to revolutionize the agri
 ### 🏢 For FPOs (Farmer Producer Organizations)
 - **Warehouse Management**: Smart inventory tracking and optimization
 - **Procurement Dashboard**: Real-time farmer listings and bidding interface
-- **Sales Management**: Direct sales to processors with automated matching
+- **Sales Management**: Direct sales to processors with automated matching and full transparency
 - **Logistics Optimization**: AI-powered route planning and storage recommendations
 - **Analytics Dashboard**: Performance metrics and market insights
 
